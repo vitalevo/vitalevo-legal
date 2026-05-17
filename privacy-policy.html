@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Vitalevo</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --purple: #7D53DE;
+  --dark: #0D0D0D;
+  --muted: #6B7280;
+  --border: rgba(0,0,0,0.08);
+  --bg: #F8F8FC;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--dark);
+  min-height: 100vh;
+}
+.topbar {
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.logo-text {
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--dark);
+}
+.logo-text span { color: var(--purple); font-weight: 200; }
+.back-link {
+  font-size: 13px;
+  color: var(--muted);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.15s;
+}
+.back-link:hover { color: var(--purple); }
+
+.hero {
+  background: linear-gradient(135deg, var(--purple) 0%, #9B7EE8 100%);
+  padding: 4rem 2rem 3rem;
+  text-align: center;
+}
+.hero-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.12);
+  padding: 5px 14px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.hero h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.75rem;
+}
+.hero-meta {
+  font-size: 14px;
+  color: rgba(255,255,255,0.6);
+}
+
+.content-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+.intro-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 2.5rem;
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.intro-card strong { color: var(--dark); }
+
+section {
+  margin-bottom: 2.5rem;
+}
+.section-num {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--purple);
+  margin-bottom: 6px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark);
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+p {
+  font-size: 15px;
+  color: #374151;
+  line-height: 1.75;
+  margin-bottom: 0.85rem;
+}
+p:last-child { margin-bottom: 0; }
+ul {
+  margin: 0.5rem 0 0.85rem 0;
+  padding-left: 1.25rem;
+}
+li {
+  font-size: 15px;
+  color: #374151;
+  line-height: 1.75;
+  margin-bottom: 0.35rem;
+}
+.highlight-box {
+  background: rgba(125, 83, 222, 0.05);
+  border: 1px solid rgba(125, 83, 222, 0.15);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin: 1rem 0;
+}
+.highlight-box p { color: var(--dark); font-weight: 500; margin-bottom: 0; }
+
+.contact-box {
+  background: var(--dark);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+.contact-box h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.contact-box p { color: rgba(255,255,255,0.6); font-size: 14px; margin-bottom: 0.35rem; }
+.contact-box a { color: var(--purple); text-decoration: none; }
+.contact-box a:hover { text-decoration: underline; }
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 2rem;
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+footer p { font-size: 13px; color: var(--muted); }
+footer a { font-size: 13px; color: var(--muted); text-decoration: none; }
+footer a:hover { color: var(--purple); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="https://vitalevo.co" class="logo">
+    <svg width="24" height="24" viewBox="0 0 112.5 112.5" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="56.25" cy="11.25" r="7" fill="#7D53DE"/>
+      <circle cx="56.25" cy="101.25" r="5.5" fill="#7D53DE"/>
+      <circle cx="11.25" cy="56.25" r="6" fill="#7D53DE"/>
+      <circle cx="101.25" cy="56.25" r="5" fill="#7D53DE"/>
+      <circle cx="24" cy="24" r="5.5" fill="#7D53DE"/>
+      <circle cx="88.5" cy="24" r="5" fill="#7D53DE"/>
+      <circle cx="24" cy="88.5" r="4.5" fill="#7D53DE"/>
+      <circle cx="88.5" cy="88.5" r="4" fill="#7D53DE"/>
+    </svg>
+    <span class="logo-text">Vital<span>evo</span></span>
+  </a>
+  <a href="https://vitalevo.co" class="back-link">← Back to site</a>
+</div>
+
+<div class="hero">
+  <div class="hero-tag">Legal</div>
+  <h1>Privacy Policy</h1>
+  <p class="hero-meta">Last updated: May 2026 &nbsp;·&nbsp; Vitalevo LLC</p>
+</div>
+
+<div class="content-wrap">
+
+  <div class="intro-card">
+    <strong>Vitalevo LLC</strong> ("Vitalevo", "we", "us", or "our") is a Meta Ads management agency registered in New Mexico, USA, operating remotely from Medellín, Colombia. This Privacy Policy explains how we collect, use, and protect information when you visit <strong>vitalevo.co</strong> or engage with our services.
+  </div>
+
+  <section>
+    <div class="section-num">01</div>
+    <h2>Information We Collect</h2>
+    <p>We collect information in the following ways:</p>
+    <p><strong>Information you provide directly:</strong></p>
+    <ul>
+      <li>Contact form submissions — name, email address, company name, and message content submitted via our website contact form (powered by Tally.so)</li>
+      <li>Business information shared during onboarding — Meta Ads account access, brand assets, revenue data, and performance metrics necessary to deliver our services</li>
+      <li>Communication records — emails, call notes, and messages exchanged in the course of our engagement</li>
+    </ul>
+    <p><strong>Information collected automatically:</strong></p>
+    <ul>
+      <li>Website analytics — Microsoft Clarity collects behavioral data including session recordings, heatmaps, rage clicks, and general interaction patterns to help us improve the website experience. This data is anonymized and aggregated.</li>
+      <li>Standard server logs — IP addresses, browser type, pages visited, and timestamps, retained for security and diagnostic purposes</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-num">02</div>
+    <h2>How We Use Your Information</h2>
+    <p>We use the information we collect exclusively to:</p>
+    <ul>
+      <li>Respond to inquiries submitted through our contact form</li>
+      <li>Deliver Meta Ads management services, including campaign strategy, creative direction, audience targeting, and performance reporting</li>
+      <li>Communicate about your engagement — reporting, approvals, strategy updates, and billing</li>
+      <li>Fulfill contractual obligations under our Master Service Agreement</li>
+      <li>Improve our website through behavioral analytics</li>
+      <li>Comply with applicable legal obligations</li>
+    </ul>
+    <div class="highlight-box">
+      <p>We do not sell, rent, or trade your personal information to third parties. We do not use your business data for any purpose outside of delivering your contracted services.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-num">03</div>
+    <h2>Third-Party Services</h2>
+    <p>In delivering our services, we work with the following third-party platforms. Each operates under its own privacy policy:</p>
+    <ul>
+      <li><strong>Meta (Facebook/Instagram)</strong> — the advertising platform we manage on your behalf. Your ad account data is governed by Meta's Data Policy.</li>
+      <li><strong>Microsoft Clarity</strong> — behavioral analytics on vitalevo.co. Data is processed by Microsoft under their privacy terms.</li>
+      <li><strong>Tally.so</strong> — contact form submissions. Data is processed by Tally under their privacy terms.</li>
+      <li><strong>Google Workspace</strong> — email and communication. Data is processed by Google under their privacy terms.</li>
+      <li><strong>Klaviyo / Stay AI / Okendo / Yotpo</strong> — retention and email platforms that may be deployed as part of client engagements, subject to each platform's terms.</li>
+    </ul>
+    <p>We do not grant third parties access to your business data beyond what is operationally required to deliver your contracted services.</p>
+  </section>
+
+  <section>
+    <div class="section-num">04</div>
+    <h2>Client Business Data</h2>
+    <p>As part of delivering Meta Ads management services, we access and process client business data including ad account credentials, revenue figures, audience data, creative assets, and performance metrics. This data is:</p>
+    <ul>
+      <li>Used exclusively to fulfill the contracted scope of work</li>
+      <li>Never shared with other clients or third parties outside of the platforms required to run your campaigns</li>
+      <li>Treated as confidential under the terms of our Master Service Agreement</li>
+      <li>Returned or deleted upon termination of the engagement, per the terms of your agreement</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-num">05</div>
+    <h2>Data Retention</h2>
+    <p>We retain personal and business information for as long as necessary to fulfill the purposes described in this policy, and as required by applicable law. Specifically:</p>
+    <ul>
+      <li>Contact form data is retained until the inquiry is resolved or for up to 12 months if no engagement is initiated</li>
+      <li>Client business data is retained for the duration of the active engagement and for up to 90 days after termination, after which it is securely deleted or returned</li>
+      <li>Website analytics data is retained per Microsoft Clarity's default retention settings (30 days rolling)</li>
+      <li>Communication records may be retained for up to 3 years for legal and business record purposes</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="section-num">06</div>
+    <h2>Your Rights</h2>
+    <p>Depending on your location, you may have certain rights regarding your personal information:</p>
+    <ul>
+      <li><strong>Access</strong> — request a copy of the personal information we hold about you</li>
+      <li><strong>Correction</strong> — request correction of inaccurate or incomplete information</li>
+      <li><strong>Deletion</strong> — request deletion of your personal information, subject to legal retention requirements</li>
+      <li><strong>Opt-out</strong> — opt out of any non-essential data collection, including website analytics</li>
+    </ul>
+    <p>California residents have additional rights under the California Consumer Privacy Act (CCPA), including the right to know, delete, and opt-out of sale (we do not sell personal information). To exercise any of these rights, contact us at the address below.</p>
+  </section>
+
+  <section>
+    <div class="section-num">07</div>
+    <h2>Security</h2>
+    <p>We take reasonable technical and organizational measures to protect your information from unauthorized access, disclosure, or destruction. This includes access controls, encrypted communications, and limiting data access to those who require it to deliver your services.</p>
+    <p>No method of transmission over the internet is 100% secure. While we strive to protect your information, we cannot guarantee absolute security.</p>
+  </section>
+
+  <section>
+    <div class="section-num">08</div>
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. Continued use of our website or services after changes are posted constitutes acceptance of the updated policy.</p>
+    <p>For material changes affecting active client engagements, we will notify affected clients directly via email.</p>
+  </section>
+
+  <div class="contact-box">
+    <h3>Questions or Requests</h3>
+    <p>For any privacy-related questions, data requests, or concerns, contact us at:</p>
+    <p><a href="mailto:david@vitalevo.co">david@vitalevo.co</a></p>
+    <p style="margin-top:0.5rem; font-size:13px;">Vitalevo LLC &nbsp;·&nbsp; New Mexico, USA</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Vitalevo LLC. All rights reserved.</p>
+  <a href="terms-and-conditions.html">Terms & Conditions →</a>
+</footer>
+
+</body>
+</html>
